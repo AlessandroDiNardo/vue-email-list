@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- cdn axios -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+    <!-- cdn vue js -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div id="app" class="container">
+        <ul class="email-cont">
+            <h1>LIST EMAIL</h1>
+            <li v-for="email in emails"  v-if="emails.length === 10">
+                {{email}}
+            </li>
+        </ul> 
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>

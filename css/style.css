@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 600px;
+    margin: 200px auto;
+}
+
+.email-cont{
+    padding: 50px 50px;
+    background-color: lightcoral;
+    border: 1px solid black;
+    border-radius: 20px;
+    line-height: 50px;
+}
+
+.email-cont h1{
+    text-align: center;
+    color: white;
+}
+
+.email-cont li:hover {
+    text-decoration: underline;
+    color: white;
+}
